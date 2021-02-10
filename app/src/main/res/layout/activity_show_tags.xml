@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorAccent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ShowTags">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="select fields"
+        android:textSize="36sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/tagGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:chipSpacingVertical="6dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipAndroid"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="onTagSelected"
+                android:text="Android"
+                android:textAllCaps="true"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:checkedIconEnabled="true"
+                app:chipMinHeight="40dp"
+                app:textEndPadding="15dp"
+                app:textStartPadding="15dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipDb"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="onTagSelected"
+                android:text="Database"
+                android:textAllCaps="true"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:checkedIconEnabled="true"
+                app:chipMinHeight="40dp"
+                app:textEndPadding="15dp"
+                app:textStartPadding="15dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipIphone"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="onTagSelected"
+                android:text="Iphone"
+                android:textAllCaps="true"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:checkedIconEnabled="true"
+                app:chipMinHeight="40dp"
+                app:textEndPadding="15dp"
+                app:textStartPadding="15dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipPf"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="onTagSelected"
+                android:text="Programming Fundamentals"
+                android:textAllCaps="true"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:checkedIconEnabled="true"
+                app:chipMinHeight="40dp"
+                app:textEndPadding="15dp"
+                app:textStartPadding="15dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipOop"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="onTagSelected"
+                android:text="Object Oriented Programming"
+                android:textAllCaps="true"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:checkedIconEnabled="true"
+                app:chipMinHeight="40dp"
+                app:textEndPadding="15dp"
+                app:textStartPadding="15dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipGame"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="onTagSelected"
+                android:text="Game Development"
+                android:textAllCaps="true"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:checkedIconEnabled="true"
+                app:chipMinHeight="40dp"
+                app:textEndPadding="15dp"
+                app:textStartPadding="15dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipDsa"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="onTagSelected"
+                android:text="Data Structures"
+                android:textAllCaps="true"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:checkedIconEnabled="true"
+                app:chipMinHeight="40dp"
+                app:textEndPadding="15dp"
+                app:textStartPadding="15dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipItc"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:onClick="onTagSelected"
+                android:text="Introduction to Computing"
+                android:textAllCaps="true"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:checkedIconEnabled="true"
+                app:chipMinHeight="40dp"
+                app:textEndPadding="15dp"
+                app:textStartPadding="15dp" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/notClickable"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="done"
+        android:textSize="18sp" />
+
+</LinearLayout>

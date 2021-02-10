@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">UMTBuffer</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="resolved">Resolved</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_slide_title">About Application</string>
+    <string name="second_slide_title">Your Profile</string>
+    <string name="third_slide_title">Ask Questions</string>
+    <string name="fourth_slide_title">You will be answered</string>
+
+    <!-- Description -->
+
+    <string name="first_slide_description">This slide is About Application</string>
+    <string name="second_slide_description">The Profile will show your details and the functionality will allow to edit your specific details.</string>
+    <string name="third_slide_description">Something about asking questions</string>
+    <string name="fourth_slide_description">Something about the answers those questions will be getting.</string>
+
+    <!-- Buttons -->
+
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="get_started">Lets Get Started</string>
+
+    <string-array name="electronics">
+        <item> </item>
+        <item>Log Out</item>
+    </string-array>
+</resources>
